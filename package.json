@@ -2,7 +2,7 @@
   "name": "vue2-google-maps",
   "version": "0.11.0",
   "description": "This is a google map component for Vue.js, updated for Vue 2 compatibility",
-  "main": "dist/vue-google-maps.js",
+  "main": "dist/main.js",
   "scripts": {
     "build-babel": "shx mkdir -p dist && shx rm -r dist && cross-env BUILD_DEV=1 babel src -D --out-dir dist && echo {} > dist/.babelrc",
     "build-webpack": "cross-env NODE_ENV=production webpack --progress --hide-modules",
