@@ -128,6 +128,7 @@ export default {
     return this.$gmapApiPromiseLazy().then(() => {
       // getting the DOM element where to create the map
       const element = this.$refs['vue-map']
+      if (!element) return
 
       // creating the map
       const options = {
